@@ -1,0 +1,16 @@
+package arithexcep;
+
+public class ArrayExcep {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] numbers = {"Mark", "Kobe", "Bean"};
+		
+		try {
+			System.out.println("Exception Caught: " + numbers [4]);
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("ArrayIndexOutOfBounds" + e);
+		}
+	}
+}
